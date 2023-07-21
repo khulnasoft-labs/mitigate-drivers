@@ -1,0 +1,3 @@
+[submodule "mitre-drivers.khulnasoft.com/themes/compose/compose"]
+	path = mitre-drivers.khulnasoft.com/themes/compose/compose
+	url = https://github.com/josehelps/compose
