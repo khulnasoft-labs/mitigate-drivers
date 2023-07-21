@@ -1,5 +1,5 @@
 +++
-title = "mitigate-drivers"
+title = "LOLDrivers"
 [dataset1]
   fileLink = "content/drivers_table.csv"
   colors = ["#ef7f1a", "#627c62", "#11819b", "#4e1154"] # chart colors
@@ -36,11 +36,11 @@ title = "mitigate-drivers"
 Living Off The Land Drivers is a curated list of Windows drivers used by adversaries to bypass security controls and carry out attacks. The project helps security professionals stay informed and mitigate potential threats. 
 
 {{< tip "warning" >}}
-Feel free to open a [PR](https://github.com/khulnasoft-labs/mitigate-drivers/pulls), raise an [issue](https://github.com/khulnasoft-labs/mitigate-drivers/issues/new/choose "Open a Github Issue")(s) or request new driver(s) be added.
+Feel free to open a [PR](https://github.com/magicsword-io/LOLDrivers/pulls), raise an [issue](https://github.com/magicsword-io/LOLDrivers/issues/new/choose "Open a Github Issue")(s) or request new driver(s) be added.
 {{< /tip >}}
 
 {{< tip >}}
-You can also get the malicious driver list via **API** using [CSV](api/drivers.csv) or [JSON](api/drivers.json). Sysmon users check out the pre-built [config](https://github.com/khulnasoft-labs/mitigate-drivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml). There is a [Sigma rule](https://github.com/khulnasoft-labs/mitigate-drivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml) for SIEMs. If you've found this project valuable, you'll absolutely love our sister projects, [LOLBAS](https://lolbas-project.github.io/#) and [GTFOBins](https://gtfobins.github.io), check them out!  
+You can also get the malicious driver list via **API** using [CSV](api/drivers.csv) or [JSON](api/drivers.json). Sysmon users check out the pre-built [config](https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml). There is a [Sigma rule](https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml) for SIEMs. If you've found this project valuable, you'll absolutely love our sister projects, [LOLBAS](https://lolbas-project.github.io/#) and [GTFOBins](https://gtfobins.github.io), check them out!  
 {{< /tip >}}
 
 {{< /column >}}
