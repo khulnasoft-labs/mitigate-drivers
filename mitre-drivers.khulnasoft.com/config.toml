@@ -1,5 +1,5 @@
 baseURL = "https://www.mitre-drivers.khulnasoft.com/"
-title = "mitigate-drivers"
+title = "Mitigate Drivers"
 enableRobotsTXT = true
 theme = ["compose"] # loading from local
 enableGitInfo = true
