@@ -586,7 +586,7 @@ sc.exe create segwindrvx64.sys binPath=C:\windows\temp\segwindrvx64.sys     type
 
 [*source*](https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/yaml/a4aa80bc-4ecd-49ab-bc0f-0f49b07fdd7f.yaml)
 
-*last_updated:* 2023-07-21
+*last_updated:* 2023-08-17
 
 
 

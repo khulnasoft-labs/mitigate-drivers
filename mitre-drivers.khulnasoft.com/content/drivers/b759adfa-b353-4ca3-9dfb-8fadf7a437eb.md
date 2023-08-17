@@ -333,7 +333,7 @@ sc.exe create spwizimgVT.sys binPath=C:\windows\temp\spwizimgVT.sys type=kernel 
 
 [*source*](https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/yaml/b759adfa-b353-4ca3-9dfb-8fadf7a437eb.yaml)
 
-*last_updated:* 2023-07-21
+*last_updated:* 2023-08-17
 
 
 

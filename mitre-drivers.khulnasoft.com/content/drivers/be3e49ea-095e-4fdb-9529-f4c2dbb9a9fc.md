@@ -322,7 +322,7 @@ sc.exe create PhlashNT.sys binPath=C:\windows\temp\PhlashNT.sys type=kernel &amp
 
 [*source*](https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/yaml/be3e49ea-095e-4fdb-9529-f4c2dbb9a9fc.yaml)
 
-*last_updated:* 2023-07-21
+*last_updated:* 2023-08-17
 
 
 
