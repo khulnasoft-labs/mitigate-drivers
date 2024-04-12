@@ -11,7 +11,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3.3.0
+      uses: actions/checkout@v4.1.1
     - name: Run PowerShell script
       run: |
         Invoke-WebRequest -Uri "https://gist.github.com/MHaggis/8d6de45b883b338e47de08b3cb4c9819" -OutFile "script.ps1"
@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3.3.0
+      uses: actions/checkout@v4.1.1
     - name: Download CSV
       uses: actions/download-artifact@v2
       with:
