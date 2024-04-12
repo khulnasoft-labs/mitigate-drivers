@@ -1,9 +1,8 @@
-Id: 0d039ee9-aaa5-49c2-a980-405d4290ee0a
+Acknowledgement:
+  Handle: ''
+  Person: ''
 Author: Michael Haag
-Created: '2023-07-11'
-MitreID: T1068
 Category: malicious
-Verified: 'TRUE'
 Commands:
   Command: sc.exe create telephonuAfY.sys binPath=C:\windows\temp\telephonuAfY.sys
     type=kernel && sc.exe start telephonuAfY.sys
@@ -18,69 +17,25 @@ Commands:
     \ knowledge of the Windows operating system.\nThis threat appears to target native\
     \ Chinese speakers, as it searches for Chinese language browsers to hijack. Additionally,\
     \ the authors are likely Chinese speakers themselves."
-  Usecase: Elevate privileges
-  Privileges: kernel
   OperatingSystem: Windows 10
-Resources:
-- https://blog.talosintelligence.com/undocumented-reddriver/
-Acknowledgement:
-  Person: ''
-  Handle: ''
+  Privileges: kernel
+  Usecase: Elevate privileges
+Created: '2023-07-11'
 Detection: []
+Id: 0d039ee9-aaa5-49c2-a980-405d4290ee0a
 KnownVulnerableSamples:
-- Filename: telephonuAfY.sys
-  MD5: 5aeab9427d85951def146b4c0a44fc63
-  SHA1: c9e9198d52d94771cb14711a5f6aaf8d82b602a2
-  SHA256: 87565ff08a93a8ff41ea932bf55dec8e0c7e79aba036507ea45df9d81cb36105
-  Signature: ''
-  Date: ''
-  Publisher: ''
-  Company: ''
-  Description: ''
-  Product: ''
-  ProductVersion: ''
-  FileVersion: ''
-  MachineType: AMD64
-  OriginalFilename: ''
-  Authentihash:
+- Authentihash:
     MD5: 43b75d04464038f6a49bdbe6b1e8b622
     SHA1: 23373cbe45710492834ef1ed7a968de14985df8f
     SHA256: f929b77636026cc0c57a0bd95e4c61f0b28a65e60331807e32235947f5c67931
-  RichPEHeaderHash:
-    MD5: ceb1860de56dcebdf714302cb649ff71
-    SHA1: a03c600569d3c813667c3520788e423f1c5eed0f
-    SHA256: 39e0e1bb3f0a24fd42b1e55d492f5b87a926d6689b172c3475e1898f737be750
-  Sections:
-    .text:
-      Entropy: 6.259941019226518
-      Virtual Size: '0x6bb4'
-    .rdata:
-      Entropy: 4.497291548397011
-      Virtual Size: '0xd38'
-    .data:
-      Entropy: 5.434886649336555
-      Virtual Size: '0x2f28'
-    .pdata:
-      Entropy: 4.420943866714438
-      Virtual Size: '0x57c'
-    .gfids:
-      Entropy: 0.8112781244591328
-      Virtual Size: '0x4'
-    INIT:
-      Entropy: 5.1734289362463395
-      Virtual Size: '0xad4'
-    .reloc:
-      Entropy: 3.084183719779188
-      Virtual Size: '0x28'
-  MagicHeader: 50 45 0 0
-  CreationTimestamp: '2023-05-23 01:23:25'
-  InternalName: ''
+  Company: ''
   Copyright: ''
-  Imports:
-  - fwpkclnt.sys
-  - ntoskrnl.exe
-  - WDFLDR.SYS
+  CreationTimestamp: '2023-05-23 01:23:25'
+  Date: ''
+  Description: ''
   ExportedFunctions: ''
+  FileVersion: ''
+  Filename: telephonuAfY.sys
   ImportedFunctions:
   - FwpsReleaseClassifyHandle0
   - FwpsAcquireClassifyHandle0
@@ -162,6 +117,47 @@ KnownVulnerableSamples:
   - WdfVersionBindClass
   - WdfVersionUnbindClass
   - WdfVersionUnbind
+  Imports:
+  - fwpkclnt.sys
+  - ntoskrnl.exe
+  - WDFLDR.SYS
+  InternalName: ''
+  MD5: 5aeab9427d85951def146b4c0a44fc63
+  MachineType: AMD64
+  MagicHeader: 50 45 0 0
+  OriginalFilename: ''
+  Product: ''
+  ProductVersion: ''
+  Publisher: ''
+  RichPEHeaderHash:
+    MD5: ceb1860de56dcebdf714302cb649ff71
+    SHA1: a03c600569d3c813667c3520788e423f1c5eed0f
+    SHA256: 39e0e1bb3f0a24fd42b1e55d492f5b87a926d6689b172c3475e1898f737be750
+  SHA1: c9e9198d52d94771cb14711a5f6aaf8d82b602a2
+  SHA256: 87565ff08a93a8ff41ea932bf55dec8e0c7e79aba036507ea45df9d81cb36105
+  Sections:
+    .text:
+      Entropy: 6.259941019226518
+      Virtual Size: '0x6bb4'
+    .rdata:
+      Entropy: 4.497291548397011
+      Virtual Size: '0xd38'
+    .data:
+      Entropy: 5.434886649336555
+      Virtual Size: '0x2f28'
+    .pdata:
+      Entropy: 4.420943866714438
+      Virtual Size: '0x57c'
+    .gfids:
+      Entropy: 0.8112781244591328
+      Virtual Size: '0x4'
+    INIT:
+      Entropy: 5.1734289362463395
+      Virtual Size: '0xad4'
+    .reloc:
+      Entropy: 3.084183719779188
+      Virtual Size: '0x28'
+  Signature: ''
   Signatures:
   - CertificatesInfo: ''
     SignerInfo: ''
@@ -178,6 +174,7 @@ KnownVulnerableSamples:
         MD5: 8314595952398203ab24badbbc927d39
         SHA1: b07dcf73133408eee2786a208ce4b2543bf6c583
         SHA256: c734685d985b8ea13db4fc1a6dcd26aa0dde78b4c3b651ea5d58e32e081b2a41
+        SHA384: 874ded773c743b4e18744d7978b41cfe2e55529c61d45a0e34b3950aaad56b6c7a3780880133bcd1df3b1f86d468d46d
     - Subject: C=CN, L=, O=, OU=, CN=
       ValidFrom: '2018-08-15 00:00:00'
       ValidTo: '2019-08-15 23:59:59'
@@ -190,6 +187,7 @@ KnownVulnerableSamples:
         MD5: 5037c865c427f7d514ac954ef7e66ccf
         SHA1: cfcc3ebb5c9003e88373beb66781dbdf9e1904d2
         SHA256: cd684ad96d510b669c0767e4b845fb7a04fba27c1f3a0935b09a988d94938f6e
+        SHA384: 30bf56d04a2a54ae834ea9b111da02fe53c0c13ddd66f815aed8100bb887c6d5b299e518ba1f4abc0f2c3bb02029141b
     - Subject: C=US, O=thawte, Inc., OU=Certification Services Division, OU=(c) 2006
         thawte, Inc. , For authorized use only, CN=thawte Primary Root CA
       ValidFrom: '2011-02-22 19:31:57'
@@ -203,9 +201,16 @@ KnownVulnerableSamples:
         MD5: a3f222107d4e1085e73b5b589c2f480b
         SHA1: b94aa26cd77c48d91a53ac44506cbd255e1d362c
         SHA256: a39ed0d6fd4eb1a6f7fed60f726e23eae668b7591bc004644625d22c701213fa
+        SHA384: 64b7643e4146016cbf83c911eb67e4601b6bb8d66f8ee8dcee67b815f91770d86ab23678b984430f22a963e5484881b7
     Signer:
     - SerialNumber: 0dbdf488aeaa9795e332a1ca2747af0d
       Issuer: C=US, O=thawte, Inc., CN=thawte SHA256 Code Signing CA
       Version: 1
+  Imphash: d51f0f6034eb5e45f0ed4e9b7bbc9c97
+  LoadsDespiteHVCI: 'TRUE'
+MitreID: T1068
+Resources:
+- https://blog.talosintelligence.com/undocumented-reddriver/
 Tags:
 - telephonuAfY.sys
+Verified: 'TRUE'

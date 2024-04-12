@@ -13,7 +13,7 @@ displayTitle = "{{driver.Tags[0]}}"
 
 
 {% if driver.Verified == 'TRUE' %}
-# {{driver.Tags[0]}} ![:inline](/images/twitter_verified.png) 
+# {{driver.Tags[0]}} ![:inline](/images/twitter_verified.png) {% if driver.KnownVulnerableSamples[0].LoadsDespiteHVCI == 'TRUE' %} ![:inline](/images/elmo.gif) {% endif %}
 
 {% else %}
 # {{driver.Tags[0]}}
@@ -39,7 +39,8 @@ We were not able to verify the hash of this driver successfully, it has not been
 - **Acknowledgement**: {{driver.Acknowledgement.Person}} | [{{ driver.Acknowledgement.Handle }}](https://twitter.com/{{driver.Acknowledgement.Handle}})
 
 {% if driver.KnownVulnerableSamples %}
-{% raw %}{{< button "https://github.com/khulnasoft-labs-io/mitigate-drivers/raw/main/drivers/{% endraw %}{{ driver.KnownVulnerableSamples[0].MD5 }}{% raw %}.bin" "Download" >}}{% endraw %}
+{% if driver.KnownVulnerableSamples[0].MD5 %}
+{% raw %}{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/raw/main/drivers/{% endraw %}{{ driver.KnownVulnerableSamples[0].MD5 }}{% raw %}.bin" "Download" >}}{% endraw %}
 {% raw %}
 {{< tip "warning" >}}
 {% endraw %}
@@ -51,6 +52,7 @@ This download link contains the malicious driver!
 {% raw %}
 {{< /tip >}}
 {% endraw %}
+{% endif %}
 {% endif %}
 
 {% if driver.Commands.Command %}
@@ -81,22 +83,22 @@ This download link contains the malicious driver!
 
 {% if driver.Category == 'malicious' %}
 
-{% raw %}{{< button "https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/detections/yara/yara-rules_mal_drivers_strict.yar" "Exact Match" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/detections/yara/yara-rules_mal_drivers_strict.yar" "Exact Match" >}}{% endraw %}
 {% raw %}{{< tip >}}with header and size limitation{{< /tip >}}{% endraw %} 
 
-{% raw %}{{< button "https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/detections/yara/yara-rules_mal_drivers.yar" "Threat Hunting" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/detections/yara/yara-rules_mal_drivers.yar" "Threat Hunting" >}}{% endraw %}
 {% raw %}{{< tip >}}without header and size limitation{{< /tip >}}{% endraw %} 
 
 
 {% elif driver.Category == 'vulnerable driver' %}
 
-{% raw %}{{< button "https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/detections/yara/yara-rules_vuln_drivers_strict.yar" "Exact Match" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/detections/yara/yara-rules_vuln_drivers_strict.yar" "Exact Match" >}}{% endraw %}
 {% raw %}{{< tip >}}with header and size limitation{{< /tip >}}{% endraw %} 
 
-{% raw %}{{< button "https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/detections/yara/yara-rules_vuln_drivers.yar" "Threat Hunting" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/detections/yara/yara-rules_vuln_drivers.yar" "Threat Hunting" >}}{% endraw %}
 {% raw %}{{< tip >}}without header and size limitation{{< /tip >}}{% endraw %} 
 
-{% raw %}{{< button "https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/detections/yara/yara-rules_vuln_drivers_strict_renamed.yar" "Renamed" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/detections/yara/yara-rules_vuln_drivers_strict_renamed.yar" "Renamed" >}}{% endraw %}
 {% raw %}{{< tip >}}for renamed driver files{{< /tip >}}{% endraw %} 
 
 {% endif %}
@@ -114,11 +116,11 @@ This download link contains the malicious driver!
 #### Sigma 🛡️
 {% raw %}{{< details "Expand" >}}{% endraw %}
 
-{% raw %}{{< button "https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/detections/sigma/driver_load_win_vuln_drivers_names.yml" "Names" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/detections/sigma/driver_load_win_vuln_drivers_names.yml" "Names" >}}{% endraw %}
 {% raw %}{{< tip >}}detects loading using name only{{< /tip >}}{% endraw %} 
 
 
-{% raw %}{{< button "https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/detections/sigma/driver_load_win_vuln_drivers.yml" "Hashes" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/detections/sigma/driver_load_win_vuln_drivers.yml" "Hashes" >}}{% endraw %}
 {% raw %}{{< tip >}}detects loading using hashes only{{< /tip >}}{% endraw %} 
 
 {% raw %}{{< /details >}}{% endraw %}
@@ -134,10 +136,10 @@ This download link contains the malicious driver!
 #### Sysmon 🔎
 {% raw %}{{< details "Expand" >}}{% endraw %}
 
-{% raw %}{{< button "https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml" "Block" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes_block.xml" "Block" >}}{% endraw %}
 {% raw %}{{< tip >}}on hashes{{< /tip >}}{% endraw %} 
 
-{% raw %}{{< button "https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml" "Alert" >}}{% endraw %}
+{% raw %}{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml" "Alert" >}}{% endraw %}
 {% raw %}{{< tip >}}on hashes{{< /tip >}}{% endraw %} 
 
 {% raw %}{{< /details >}}{% endraw %}
@@ -172,6 +174,7 @@ This download link contains the malicious driver!
 | Property           | Value |
 |:-------------------|:------|
 | Filename           | {{ hash.Filename }} |
+| Creation Timestamp           | {{ hash.CreationTimestamp }} |
 | MD5                | [{{ hash.MD5 }}](https://www.virustotal.com/gui/file/{{hash.MD5}}) |
 | SHA1               | [{{ hash.SHA1 }}](https://www.virustotal.com/gui/file/{{hash.SHA1}}) |
 | SHA256             | [{{ hash.SHA256 }}](https://www.virustotal.com/gui/file/{{hash.SHA256}}) |
@@ -202,6 +205,10 @@ This download link contains the malicious driver!
 {% if hash.Machinetype %}| MachineType       | {{ hash.Machinetype }} |
 {% endif %}
 {% if hash.OriginalFilename %}| OriginalFilename  | {{ hash.OriginalFilename }} |
+{% endif %}
+
+{% if hash.MD5 %}
+{% raw %}{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/raw/main/drivers/{% endraw %}{{ hash.MD5 }}{% raw %}.bin" "Download" >}}{% endraw %} 
 {% endif %}
 
 {% if hash.Signatures %}
@@ -244,16 +251,7 @@ This download link contains the malicious driver!
 
 {% raw %}{{< /details >}}{% endraw %}
 
-#### Imports
-{% raw %}{{< details "Expand" >}}{% endraw %}
-
-{% for import in hash.Imports %}
-* {{ import }}
-{% endfor %}
-
-{% raw %}{{< /details >}}{% endraw %}
-
-#### ImportedFunctions
+#### Imported Functions
 {% raw %}{{< details "Expand" >}}{% endraw %}
 
 {% for import in hash.ImportedFunctions %}
@@ -262,7 +260,7 @@ This download link contains the malicious driver!
 
 {% raw %}{{< /details >}}{% endraw %}
 
-#### ExportedFunctions
+#### Exported Functions
 {% raw %}{{< details "Expand" >}}{% endraw %}
 
 {% for export in hash.ExportedFunctions %}
@@ -270,6 +268,15 @@ This download link contains the malicious driver!
 {% endfor %}
 
 {% raw %}{{< /details >}}{%+ endraw +%}
+
+#### Sections
+{% raw %}{{< details "Expand" >}}{% endraw %}
+
+{% for section in hash.Sections %}
+* {{ section }}
+{% endfor %}
+
+{% raw %}{{< /details >}}{% endraw %}
 
 #### Signature
 {% raw %}{{< details "Expand" >}}{% endraw %}
@@ -287,16 +294,9 @@ This download link contains the malicious driver!
 {% endif %}
 
 
-[*source*](https://github.com/khulnasoft-labs-io/mitigate-drivers/tree/main/yaml{{driver.kind}}/{{ driver.Id }}.yaml)
+[*source*](https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/yaml{{driver.kind}}/{{ driver.Id }}.yaml)
 
 *last_updated:* {{ time }}
-
-
-
-
-
-
-
 {% raw %}
 {{< /column >}}
 {{< /block >}}

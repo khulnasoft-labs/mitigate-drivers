@@ -1,0 +1,20 @@
+#  menu items
+#[[main]]
+#  name = "Drivers"
+#  weight = 2
+#  url = "drivers/"
+
+[[main]]
+  name = "About"
+  weight = 5
+  url = "about/"
+
+[[main]]
+  name = "HTA Generator"
+  weight = 6
+  url = "https://htagen.mitigate-drivers.khulnasoft.com"
+
+[[main]]
+  name = "Premium"
+  weight = 7
+  url = "https://www.khulnasoft.com/premium"

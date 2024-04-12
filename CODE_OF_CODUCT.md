@@ -1,6 +1,6 @@
 # Contributor Code of Conduct
 
-Welcome to the [mitigate-drivers online community](https://mitre-drivers.khulnasoft.com/). Our goal is to foster an open, safe, and welcoming environment. As a collective, we—as contributors, maintainers, and the Open Source Projects team of khulnasoft-labs—pledge to encourage our project and community to be a harassment-free space. We invite you to collaborate, exchange thoughts or information, and engage with one another. mitigate-drivers is meant for everyone, regardless of age, personal appearance, body size, disability, nationality, race, ethnicity, gender identity and expression, level of experience or academics, religion, or sexual identity and orientation.
+Welcome to the [MitiDrivers online community](https://mitigate-drivers.khulnasoft.com/). Our goal is to foster an open, safe, and welcoming environment. As a collective, we—as contributors, maintainers, and the Open Source Projects team of MagicSword—pledge to encourage our project and community to be a harassment-free space. We invite you to collaborate, exchange thoughts or information, and engage with one another. MitiDrivers is meant for everyone, regardless of age, personal appearance, body size, disability, nationality, race, ethnicity, gender identity and expression, level of experience or academics, religion, or sexual identity and orientation.
 
 ## Our Guidelines
 
@@ -23,13 +23,13 @@ Welcome to the [mitigate-drivers online community](https://mitre-drivers.khulnas
 
 ## Reporting
 
-If you see anything that you believe breaks our community guidelines, no matter if it’s privately or publicly witnessed, please reach out to the **khulnasoft-labs Open Source Team** at [email](mailto:opensource@khulnasoft-labs.io) with screenshots of the post/text and a link to the post or comments.
+If you see anything that you believe breaks our community guidelines, no matter if it’s privately or publicly witnessed, please reach out to the **MagicSword Open Source Team** at [email](mailto:opensource@khulnasoft.com) with screenshots of the post/text and a link to the post or comments.
 
 ## Enforcement & Consequences
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the Community Manager. Unacceptable behavior will not be tolerated by community members, maintainers, and khulnasoft-labs team members.  The LOLDriver Community Manager and maintainers will review and investigate all complaints.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the Community Manager. Unacceptable behavior will not be tolerated by community members, maintainers, and MagicSword team members.  The LOLDriver Community Manager and maintainers will review and investigate all complaints.
 
-Anyone asked to stop unacceptable behavior is expected to comply immediately. If an LOLDriver community member (anyone contributing to our [GitHub Repo](https://github.com/khulnasoft-labs-io/mitigate-drivers) engages in unacceptable behavior, the Community Manager may take any temporary or permanent action they deem appropriate, up to and including immediate expulsion from the LOLDriver community without warning.
+Anyone asked to stop unacceptable behavior is expected to comply immediately. If an LOLDriver community member (anyone contributing to our [GitHub Repo](https://github.com/khulnasoft-lab/mitigate-drivers) engages in unacceptable behavior, the Community Manager may take any temporary or permanent action they deem appropriate, up to and including immediate expulsion from the LOLDriver community without warning.
 
 LOLDriver maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
@@ -43,9 +43,9 @@ LOLDriver Maintainers have the right and responsibility to remove, edit, or reje
 
 This Code of Conduct applies to all of the LOLDriver project spaces, including public spaces where an individual is representing the project or its community. Examples of representing the project or community include using an official project e-mail address, posting an official social media account, or acting as an appointed representative at an online or offline event.
 
-* [LOLDriver Website](https://mitre-drivers.khulnasoft.com/)
+* [LOLDriver Website](https://mitigate-drivers.khulnasoft.com/)
 
-* [LOLDriver GitHub](https://github.com/khulnasoft-labs-io/mitigate-drivers)
+* [LOLDriver GitHub](https://github.com/khulnasoft-lab/mitigate-drivers)
 
 ## Attribution
 
