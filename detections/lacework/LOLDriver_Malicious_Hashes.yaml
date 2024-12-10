@@ -1,4 +1,4 @@
-queryId: LOLDriver_Malicious_Hashes
+queryId: Mitigate-Drivers_Malicious_Hashes
 queryText: |-
     {
         source {

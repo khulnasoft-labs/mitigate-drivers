@@ -27,25 +27,25 @@ If you see anything that you believe breaks our community guidelines, no matter 
 
 ## Enforcement & Consequences
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the Community Manager. Unacceptable behavior will not be tolerated by community members, maintainers, and MagicSword team members.  The LOLDriver Community Manager and maintainers will review and investigate all complaints.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the Community Manager. Unacceptable behavior will not be tolerated by community members, maintainers, and MagicSword team members.  The Mitigate-Drivers Community Manager and maintainers will review and investigate all complaints.
 
-Anyone asked to stop unacceptable behavior is expected to comply immediately. If an LOLDriver community member (anyone contributing to our [GitHub Repo](https://github.com/khulnasoft-lab/mitigate-drivers) engages in unacceptable behavior, the Community Manager may take any temporary or permanent action they deem appropriate, up to and including immediate expulsion from the LOLDriver community without warning.
+Anyone asked to stop unacceptable behavior is expected to comply immediately. If an Mitigate-Drivers community member (anyone contributing to our [GitHub Repo](https://github.com/khulnasoft-lab/mitigate-drivers) engages in unacceptable behavior, the Community Manager may take any temporary or permanent action they deem appropriate, up to and including immediate expulsion from the Mitigate-Drivers community without warning.
 
-LOLDriver maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+Mitigate-Drivers maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
 ## Manager’s & Maintainers’ Responsibilities
 
-LOLDriver Community Managers are responsible for upholding the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+Mitigate-Drivers Community Managers are responsible for upholding the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
-LOLDriver Maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or that they otherwise deem inappropriate, threatening, offensive, or harmful.
+Mitigate-Drivers Maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or that they otherwise deem inappropriate, threatening, offensive, or harmful.
 
 ## Scope
 
-This Code of Conduct applies to all of the LOLDriver project spaces, including public spaces where an individual is representing the project or its community. Examples of representing the project or community include using an official project e-mail address, posting an official social media account, or acting as an appointed representative at an online or offline event.
+This Code of Conduct applies to all of the Mitigate-Drivers project spaces, including public spaces where an individual is representing the project or its community. Examples of representing the project or community include using an official project e-mail address, posting an official social media account, or acting as an appointed representative at an online or offline event.
 
-* [LOLDriver Website](https://mitigate-drivers.khulnasoft.com/)
+* [Mitigate-Drivers Website](https://mitigate-drivers.khulnasoft.com/)
 
-* [LOLDriver GitHub](https://github.com/khulnasoft-lab/mitigate-drivers)
+* [Mitigate-Drivers GitHub](https://github.com/khulnasoft-lab/mitigate-drivers)
 
 ## Attribution
 

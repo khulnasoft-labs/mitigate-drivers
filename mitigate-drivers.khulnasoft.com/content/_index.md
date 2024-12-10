@@ -1,5 +1,5 @@
 +++
-title = "MitiDrivers"
+title = "Mitigate-Driverss"
 [dataset1]
   fileLink = "content/drivers_table.csv"
   colors = ["#ef7f1a", "#627c62", "#11819b", "#4e1154"] # chart colors
@@ -35,12 +35,12 @@ title = "MitiDrivers"
 # Living Off The Land Drivers 
 Living Off The Land Drivers is a curated list of Windows drivers used by adversaries to bypass security controls and carry out attacks. The project helps security professionals stay informed and mitigate potential threats. 
 
-{{< tip "warning" >}}
-Feel free to open a [PR](https://github.com/khulnasoft-lab/mitigate-drivers/pulls), raise an [issue](https://github.com/khulnasoft-lab/mitigate-drivers/issues/new/choose "Open a Github Issue")(s) or request new driver(s) be added.
+{{< tip  >}}
+Feel free to open a [PR](https://github.com/magicsword-io/Mitigate-Driverss/pulls), raise an [issue](https://github.com/magicsword-io/Mitigate-Driverss/issues/new/choose "Open a Github Issue")(s) or request new driver(s) be added.
 {{< /tip >}}
 
 {{< tip >}}
-You can also get the malicious driver list via **API** using [CSV](api/drivers.csv) or [JSON](api/drivers.json). Sysmon users check out the pre-built [config](https://github.com/khulnasoft-lab/mitigate-drivers/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml). There is a [Sigma rule](https://github.com/khulnasoft-lab/mitigate-drivers/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml) for SIEMs. If you've found this project valuable, you'll absolutely love our sister projects, [LOLBAS](https://lolbas-project.github.io/#) and [GTFOBins](https://gtfobins.github.io), check them out!  
+You can also get the malicious driver list via **API** using [CSV](api/drivers.csv) or [JSON](api/drivers.json). Sysmon users check out the pre-built [config](https://github.com/magicsword-io/Mitigate-Driverss/blob/main/detections/sysmon/sysmon_config_vulnerable_hashes.xml). There is a [Sigma rule](https://github.com/magicsword-io/Mitigate-Driverss/blob/main/detections/sigma/driver_load_win_vuln_drivers.yml) for SIEMs. If you've found this project valuable, you'll absolutely love our sister projects, [LOLBAS](https://lolbas-project.github.io/#) and [GTFOBins](https://gtfobins.github.io), check them out!  
 {{< /tip >}}
 
 {{< /column >}}
@@ -59,6 +59,14 @@ You can also get the malicious driver list via **API** using [CSV](api/drivers.c
 
 {{< /column >}}
 
+{{< /block >}}
+
+{{< block "grid-1" >}}
+{{< column >}}
+{{< tip "warning" >}}
+Interested in learning how to **<span style="color: red;">block</span>** these drivers natively on Windows? <a href="https://www.magicsword.io/premium"><img src="images/magicsword-logo.png" alt="MagicSword Logo" style="width:110px; height:110px; vertical-align:middle;">Explore MagicSword Premium</a>
+{{< /tip >}}
+{{< /column >}}
 {{< /block >}}
 
 {{< block "grid-1" >}}

@@ -1,5 +1,5 @@
-baseURL = "https://www.mitigate-drivers.khulnasoft.com/"
-title = "MitiDrivers"
+baseURL = "https://www.loldrivers.io/"
+title = "Mitigate-Driverss"
 enableRobotsTXT = true
 theme = ["compose"] # loading from local
 enableGitInfo = true

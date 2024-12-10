@@ -10,10 +10,10 @@ LQL (Lacework Query Language) is a powerful tool provided by Lacework for queryi
 
 1. First, you need to install and configure the Lacework CLI. You can follow the instructions provided in the [official Lacework CLI documentation](https://docs.lacework.net/cli/).
 
-2. Once you have the Lacework CLI installed and configured, you can run the LQL script provided in this project. The script is located in the file [LOLDriver_Malicious_Hashes.yaml](LOLDriver_Malicious_Hashes.yaml).
+2. Once you have the Lacework CLI installed and configured, you can run the LQL script provided in this project. The script is located in the file [Mitigate-Drivers_Malicious_Hashes.yaml](Mitigate-Drivers_Malicious_Hashes.yaml).
 
 3. To run the script, use the following command:
-`lacework query run --start "-120d@d" --end "@h" -f LOLDriver_Malicious_Hashes.yaml`
+`lacework query run --start "-120d@d" --end "@h" -f Mitigate-Drivers_Malicious_Hashes.yaml`
 
 
 ## Install script

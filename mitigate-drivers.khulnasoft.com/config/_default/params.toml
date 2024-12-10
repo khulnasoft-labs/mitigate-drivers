@@ -42,9 +42,9 @@ enable = false
   name = "GitHub"
   iconLight = "images/GitHubMarkLight.svg"
   iconDark = "images/GitHubMarkDark.svg"
-  url = "https://github.com/khulnasoft-lab/mitigate-drivers"
+  url = "https://github.com/magicsword-io/Mitigate-Driverss"
 
 [author]  
   name = "With ♥️ from Magicsword"
-  url = "https://mitigate-drivers.khulnasoft.com/about"
+  url = "https://loldrivers.io/about"
 

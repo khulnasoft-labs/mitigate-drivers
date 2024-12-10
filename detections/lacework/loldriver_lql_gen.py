@@ -11,7 +11,7 @@ def fetch_hashes(url):
 def generate_lql(hashes):
     hashes_condition = "\n            OR ".join(f"files.FILEDATA_HASH = '{hash_}'" for hash_ in hashes)
     query = textwrap.dedent(f"""\
-    queryId: LOLDriver_Malicious_Hashes
+    queryId: Mitigate-Drivers_Malicious_Hashes
     queryText: |-
         {{
             source {{
@@ -41,10 +41,10 @@ def generate_lql(hashes):
             }}
         }}""")
 
-    with open('LOLDriver_Malicious_Hashes.yaml', 'w') as file:
+    with open('Mitigate-Drivers_Malicious_Hashes.yaml', 'w') as file:
         file.write(query)
 
-    print("Query saved to 'LOLDriver_Malicious_Hashes.yaml'.")
+    print("Query saved to 'Mitigate-Drivers_Malicious_Hashes.yaml'.")
 
 url = 'https://raw.githubusercontent.com/khulnasoft-lab/mitigate-drivers/main/detections/hashes/samples_malicious.sha256'
 hashes = fetch_hashes(url)
