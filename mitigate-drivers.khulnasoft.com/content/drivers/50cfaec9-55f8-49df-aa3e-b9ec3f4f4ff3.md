@@ -21,7 +21,7 @@ mhyprot.sys is a vulnerable driver and more information will be added as found.
 - **Author**: Michael Haag
 - **Acknowledgement**:  | [](https://twitter.com/)
 
-{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/raw/main/drivers/4b817d0e7714b9d43db43ae4a22a161e.bin" "Download" >}}
+{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/raw/main/drivers/4b817d0e7714b9d43db43ae4a22a161e.bin" "Download" >}}{{< button "https://www.khulnasoft.com/premium" "Block" "red" >}}
 {{< tip "warning" >}}
 This download link contains the vulnerable driver!
 
@@ -416,7 +416,7 @@ sc.exe create mhyprot.sys binPath=C:\windows\temp\mhyprot.sys type=kernel &amp;&
 
 [*source*](https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/yaml/50cfaec9-55f8-49df-aa3e-b9ec3f4f4ff3.yaml)
 
-*last_updated:* 2024-04-12
+*last_updated:* 2024-12-10
 
 {{< /column >}}
 {{< /block >}}

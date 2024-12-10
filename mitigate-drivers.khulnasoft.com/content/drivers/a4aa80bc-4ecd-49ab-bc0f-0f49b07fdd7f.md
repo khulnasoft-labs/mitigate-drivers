@@ -21,7 +21,7 @@ segwindrvx64.sys is a vulnerable driver and more information will be added as fo
 - **Author**: Michael Haag, Nasreddine Bencherchali
 - **Acknowledgement**:  | [](https://twitter.com/)
 
-{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/raw/main/drivers/9cbdb5fb6dc63cb13f10b6333407cbb9.bin" "Download" >}}
+{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/raw/main/drivers/9cbdb5fb6dc63cb13f10b6333407cbb9.bin" "Download" >}}{{< button "https://www.khulnasoft.com/premium" "Block" "red" >}}
 {{< tip "warning" >}}
 This download link contains the vulnerable driver!
 
@@ -2045,7 +2045,7 @@ sc.exe create segwindrvx64.sys binPath=C:\windows\temp\segwindrvx64.sys     type
 
 [*source*](https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/yaml/a4aa80bc-4ecd-49ab-bc0f-0f49b07fdd7f.yaml)
 
-*last_updated:* 2024-04-12
+*last_updated:* 2024-12-10
 
 {{< /column >}}
 {{< /block >}}

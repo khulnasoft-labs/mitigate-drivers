@@ -21,7 +21,7 @@ cpuz141.sys is a vulnerable driver and more information will be added as found.
 - **Author**: Michael Haag
 - **Acknowledgement**:  | [](https://twitter.com/)
 
-{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/raw/main/drivers/db72def618cbc3c5f9aa82f091b54250.bin" "Download" >}}
+{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/raw/main/drivers/db72def618cbc3c5f9aa82f091b54250.bin" "Download" >}}{{< button "https://www.khulnasoft.com/premium" "Block" "red" >}}
 {{< tip "warning" >}}
 This download link contains the vulnerable driver!
 
@@ -320,7 +320,7 @@ sc.exe create cpuz141.sys binPath=C:\windows\temp\cpuz141.sys type=kernel &amp;&
 
 [*source*](https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/yaml/fab98aaa-e4e7-4c4a-af65-c00d35cf66e9.yaml)
 
-*last_updated:* 2024-04-12
+*last_updated:* 2024-12-10
 
 {{< /column >}}
 {{< /block >}}
