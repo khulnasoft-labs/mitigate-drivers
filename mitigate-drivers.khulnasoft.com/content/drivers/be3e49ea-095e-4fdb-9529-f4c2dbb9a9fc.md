@@ -21,7 +21,7 @@ PhlashNT.sys is a vulnerable driver and more information will be added as found.
 - **Author**: Michael Haag
 - **Acknowledgement**:  | [](https://twitter.com/)
 
-{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/raw/main/drivers/e9e786bdba458b8b4f9e93d034f73d00.bin" "Download" >}}
+{{< button "https://github.com/khulnasoft-lab/mitigate-drivers/raw/main/drivers/e9e786bdba458b8b4f9e93d034f73d00.bin" "Download" >}}{{< button "https://www.khulnasoft.com/premium" "Block" "red" >}}
 {{< tip "warning" >}}
 This download link contains the vulnerable driver!
 
@@ -335,7 +335,7 @@ sc.exe create PhlashNT.sys binPath=C:\windows\temp\PhlashNT.sys type=kernel &amp
 
 [*source*](https://github.com/khulnasoft-lab/mitigate-drivers/tree/main/yaml/be3e49ea-095e-4fdb-9529-f4c2dbb9a9fc.yaml)
 
-*last_updated:* 2024-04-12
+*last_updated:* 2024-12-10
 
 {{< /column >}}
 {{< /block >}}

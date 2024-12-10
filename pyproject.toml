@@ -2,7 +2,7 @@
 name = "mitidrivers"
 version = "0.1.0"
 description = "mitidrivers data generator"
-authors = ["Your Name <you@example.com>"]
+authors = ["KhulnaSoft DevSec <security@khulnasoft.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
